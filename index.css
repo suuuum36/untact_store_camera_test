@@ -122,7 +122,7 @@ select {
 }
 
 .type-3 .v1_wrapper {
-    width: 10.6%;
+    width: 11%;
     height: 13%;
     top: 1%;
     left: 88.5%;
@@ -130,6 +130,10 @@ select {
 
 .type-3 #main_video_1 {
     margin-bottom: 24%;
+}
+
+.type-3 .v {
+    width: 33%;
 }
 
 /*case4*/
@@ -141,7 +145,7 @@ select {
 }
 
 .type-4 .v1_wrapper {
-    width: 10.6%;
+    width: 11%;
     height: 13%;
     top: 1%;
     left: 88.5%;
@@ -149,6 +153,10 @@ select {
 
 .type-4 #main_video_1 {
     margin-bottom: 24%;
+}
+
+.type-4 .v {
+    width: 33%;
 }
 
 /*main*/

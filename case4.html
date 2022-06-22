@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera selection</title>
+  <link rel="stylesheet" href="./app.css" />
+  <link rel="stylesheet" href="./index.css" />
+
+</head>
+
+<body>
+  <section class="type-4">
+    <img class="bg" src="./bg4.png">
+    <div class="v1_wrapper">
+      <button id="button_1">Get camera 1</button>
+      <video id="main_video_1" autoplay playsinline></video>
+      <select id="select_1">
+        <option></option>
+      </select>  
+    </div>
+    <div class="v2_wrapper">
+      <div class="v">
+        <button id="button_2">Get camera 2</button>
+        <video  id="main_video_2" autoplay playsinline></video>
+        <select id="select_2">
+          <option></option>
+        </select>
+      </div>
+      <video class="v"></video>
+      <video class="v"></video>
+    </div>
+    <div class="button">
+      <button id="btn_setting">
+        <img src="./icon_setting.svg">
+      </button>  
+      <button id="btn_video_confirm">
+        <img src="./icon_remove.svg">
+      </button>    
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>

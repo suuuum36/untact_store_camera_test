@@ -1,0 +1,143 @@
+* {
+    border: 1px solid red;
+}
+
+section {
+    width: 100%;
+    position: relative;
+}
+
+.bg {
+    width: 100%;
+    height: auto;
+}
+
+.v1_wrapper {
+    position: absolute;
+    width: 3.6%;
+    height: 4%;
+    top: 4%;
+    left: 0.8%;
+}
+
+#main_video_1, #main_video_2 {
+    width: 100%;
+    height: 100%;
+}
+
+#button_1, #button_2 {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+}
+
+.v2_wrapper {
+    position: absolute;
+    width: 46%;
+    height: 17%;
+    top: 2%;
+    left: 31.8%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.v {
+    width: 31%;
+    height: 100%;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    width: 4%;
+    height: 7%;
+    top: 82%;
+    right: 1%;
+}
+
+#btn_video_confirm {
+    background: white;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    box-shadow: 3px 6px 8px 3px rgba(0, 0, 0, 0.154);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_setting {
+    background: white;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    box-shadow: 3px 6px 8px 3px rgba(0, 0, 0, 0.154);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button > img {
+    width: 55%;
+    height: auto;
+}
+
+select {
+    width: 100%;
+}
+
+/*case2*/
+.type-2 .v2_wrapper {
+    width: 57%;
+    height: 22%;
+    top: 3%;
+    left: 26.8%;
+}
+
+/*case3*/
+.type-3 .v2_wrapper {
+    width: 44%;
+    height: 17%;
+    top: 1%;
+    left: 43.8%;
+}
+
+.type-3 .v1_wrapper {
+    width: 10.6%;
+    height: 13%;
+    top: 1%;
+    left: 88.5%;
+}
+
+.type-3 #main_video_1 {
+    margin-bottom: 24%;
+}
+
+/*case4*/
+.type-4 .v2_wrapper {
+    width: 55%;
+    height: 21%;
+    top: 1%;
+    left: 32.8%;
+}
+
+.type-4 .v1_wrapper {
+    width: 10.6%;
+    height: 13%;
+    top: 1%;
+    left: 88.5%;
+}
+
+.type-4 #main_video_1 {
+    margin-bottom: 24%;
+}
